@@ -11,7 +11,7 @@ $app['debug'] = true;
 $solr_config = array(
 	'host' 		=> '127.0.0.1',
   'port' 		=> 8983,
-	'path' 		=> '/solr/',
+	'path' 		=> '/solr/geotest',
 );
 
 // Register the Twig service provider

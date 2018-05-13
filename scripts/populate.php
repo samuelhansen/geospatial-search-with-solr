@@ -1,11 +1,11 @@
 <?php
 // Include the autoloader - don't forget to run composer install first
-require '../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 $solr_config = array(
 	'host' 		=> '127.0.0.1',
   'port' 		=> 8983,
-	'path' 		=> '/solr/',
+	'path' 		=> '/solr/geotest',
 );
 
 // Create a Solarium client
